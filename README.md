@@ -21,4 +21,3 @@ flutter pub run build_runner build
 Run the Flutter Application
 
 flutter run
-s
