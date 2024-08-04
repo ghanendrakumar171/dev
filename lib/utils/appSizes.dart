@@ -52,6 +52,5 @@ class AppSizes {
   static const double hundred = 100;
   static const double hundredSixty = 160;
   static const double hundredFourty = 140;
-
-
+  static const double hundredEighty = 180;
 }

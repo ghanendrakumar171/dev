@@ -146,7 +146,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
                                   width: AppSizes.sizeSix.w,
                                 ),
                                 SizedBox(
-                                  width: AppSizes.sizeEighty.w,
+                                  width: AppSizes.hundredEighty.w,
                                   child: Text(
                                     data?.emp_id ?? "",
                                     maxLines: 1,
@@ -180,7 +180,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
                                   width: AppSizes.sizeSix.w,
                                 ),
                                 SizedBox(
-                                  width: AppSizes.sizeEighty.w,
+                                  width: 200,
                                   child: Text(
                                     data?.contact?.email ?? "",
                                     maxLines: 1,
@@ -214,7 +214,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
                                   width: AppSizes.sizeSix.w,
                                 ),
                                 SizedBox(
-                                  width: AppSizes.sizeEighty.w,
+                                  width: AppSizes.hundredEighty.w,
                                   child: Text(
                                     data?.contact?.phone ?? "",
                                     maxLines: 1,
@@ -248,7 +248,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
                                   width: AppSizes.sizeSix.w,
                                 ),
                                 SizedBox(
-                                  width: AppSizes.sizeEighty.w,
+                                  width: AppSizes.hundredEighty.w,
                                   child: Text(
                                     data?.address?.line1 ?? "",
                                     maxLines: 1,
@@ -282,7 +282,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
                                   width: AppSizes.sizeSix.w,
                                 ),
                                 SizedBox(
-                                  width: AppSizes.sizeEighty.w,
+                                  width: AppSizes.hundredEighty.w,
                                   child: Text(
                                     data?.address?.city ?? "",
                                     maxLines: 1,
@@ -316,7 +316,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
                                   width: AppSizes.sizeSix.w,
                                 ),
                                 SizedBox(
-                                  width: AppSizes.sizeEighty.w,
+                                  width: AppSizes.hundredEighty.w,
                                   child: Text(
                                     data?.address?.country ?? "",
                                     maxLines: 1,
@@ -350,7 +350,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
                                   width: AppSizes.sizeSix.w,
                                 ),
                                 SizedBox(
-                                  width: AppSizes.sizeEighty.w,
+                                  width: AppSizes.hundredEighty.w,
                                   child: Text(
                                     data?.address?.zipCode ?? "",
                                     maxLines: 1,
