@@ -4,13 +4,36 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+This command builds and runs the Flutter application on a connected device or emulator.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Summary of Commands
+Here’s a summary of the commands you'll need:
+
+Fetch Dependencies:
+flutter pub get
+
+Build Code Generation Files
+
+flutter pub run build_runner build
+
+Run the Flutter Application
+
+flutter run
+
+
+
+
+
+
+
+1. you need to run cmd
+    flutter pub get
+2.
+For runing this project you need to run cmd 
+
+ flutter pub run build_runner build
+3.
+after this you need you run 
+ fluter run
